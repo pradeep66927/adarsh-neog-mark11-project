@@ -1,0 +1,52 @@
+:root{
+    --primary-green: #10B981
+}
+body{
+    background-color: rgb(231, 129, 129);
+    text-color:#00ff00
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    padding-left: 30rem;
+    
+}
+#date-of-birth{
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+input,
+level {
+    display: block;
+    margin-bottom: 1rem;
+    padding-bottom:0.5rem;
+}
+
+.input {
+   margin-bottom: 1rem; 
+   width: 100%;
+}
+
+#check-number{
+    display: auto;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    border-width: medium;
+    color: rgb(15, 29, 233);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+#output-box{
+    display: block;
+    size: 40%;
+}
